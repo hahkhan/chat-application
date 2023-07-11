@@ -1,0 +1,56 @@
+main {
+  padding: 10px;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: calc(91vh - 155px);
+  overflow: scroll;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+.formContainer {
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(24, 23, 23);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.formContainer button {
+  width: 15%;
+  background-color: rgb(0, 0, 255);
+}
+
+.formContainer input {
+  line-height: 1.5;
+  width: 90%;
+  font-size: 1.5rem;
+  background: #3b3b3b;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+}
+
+img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
